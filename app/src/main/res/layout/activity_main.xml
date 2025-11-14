@@ -15,7 +15,7 @@
         android:orientation="vertical"
         android:background="#F5F5F5">
 
-        <!-- Header -->
+
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- Add Task Button -->
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnAddTask"
             android:layout_width="match_parent"
@@ -62,7 +62,7 @@
             app:cornerRadius="12dp"
             android:backgroundTint="#2196F3" />
 
-        <!-- Tasks List -->
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvTasks"
             android:layout_width="match_parent"
@@ -70,7 +70,7 @@
             android:layout_weight="1"
             android:layout_margin="8dp" />
 
-        <!-- Empty State -->
+
         <LinearLayout
             android:id="@+id/emptyState"
             android:layout_width="match_parent"
